@@ -31,7 +31,7 @@ $(document).ready(function () {
       });
       $(".headings").css("color", "black");
       $("label").css("color", "black");
-      $("#modeimage").prop("src", "../resources/lightmode.png");
+      $("#modeimage").prop("src", "./lightmode.png");
 
       mode = "lightmode";
     } else {
@@ -46,7 +46,7 @@ $(document).ready(function () {
       });
       $(".headings").css("color", "white");
       $("label").css("color", "white");
-      $("#modeimage").prop("src", "../resources/darkmode.png");
+      $("#modeimage").prop("src", "./darkmode.png");
 
       mode = "darkmode";
     }
